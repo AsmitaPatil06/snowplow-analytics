@@ -1,0 +1,12 @@
+<div class="container-fluid">
+
+    <form #f="ngForm" (ngSubmit)="onSubmit(f)">
+        <input name="name" type="text" ngModel required>
+        <input name="email" type="email" ngModel required>
+        <input name="file" type="file" ngModel>
+        <input type="submit" value="Submit">
+
+
+
+    </form>
+</div>
